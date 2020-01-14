@@ -21,7 +21,12 @@ steps:
 resources:
   repositories:
   # The name used to reference this repository in the checkout step
-  - repository: parallelDevOps 
+  - repository: BashCalcRepo 
     type: github
-    endpoint: testConn
-    name: parallelDevOps/bashCalc
+    endpoint: TestConn
+    name: terryking72/bashCalc
+# The name used to reference this repository in the checkout step
+  - repository: WindowsBatchRepo
+    type: github
+    endpoint: TestConn
+    name: terryking72/winBatch
