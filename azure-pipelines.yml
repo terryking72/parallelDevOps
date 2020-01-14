@@ -81,7 +81,7 @@ stages:
         echo Learning is fun, enquire below.
         echo See https://www.kavinschool.com/content/
       displayName: 'Run a multi-line script'
-	  
+  
 #Fourth Stage on Windows Prod
 - stage: WindowsProdEnvCheck
   dependsOn: 
